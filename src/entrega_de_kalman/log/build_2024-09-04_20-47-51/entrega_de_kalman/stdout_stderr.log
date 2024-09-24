@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating entrega_de_kalman.egg-info
+writing entrega_de_kalman.egg-info/PKG-INFO
+writing dependency_links to entrega_de_kalman.egg-info/dependency_links.txt
+writing entry points to entrega_de_kalman.egg-info/entry_points.txt
+writing requirements to entrega_de_kalman.egg-info/requires.txt
+writing top-level names to entrega_de_kalman.egg-info/top_level.txt
+writing manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'
+reading manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'
+writing manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/lib/python3.10/site-packages/entrega-de-kalman.egg-link (link to .)
+Installing r2d2 script to /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/lib/entrega_de_kalman
+
+Installed /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/build/entrega_de_kalman
+running install_data
+creating /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/share/ament_index
+creating /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/share/ament_index/resource_index
+creating /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/share/ament_index/resource_index/packages
+copying resource/entrega_de_kalman -> /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/share/entrega_de_kalman

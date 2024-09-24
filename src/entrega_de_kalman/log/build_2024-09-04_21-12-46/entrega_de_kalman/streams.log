@@ -1,0 +1,17 @@
+[4.695s] Invoking command in '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/build/entrega_de_kalman': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/build/entrega_de_kalman/prefix_override:/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/build/entrega_de_kalman/build --no-deps install_data
+[7.178s] running develop
+[8.221s] running egg_info
+[8.239s] writing entrega_de_kalman.egg-info/PKG-INFO
+[8.245s] writing dependency_links to entrega_de_kalman.egg-info/dependency_links.txt
+[8.246s] writing entry points to entrega_de_kalman.egg-info/entry_points.txt
+[8.249s] writing requirements to entrega_de_kalman.egg-info/requires.txt
+[8.252s] writing top-level names to entrega_de_kalman.egg-info/top_level.txt
+[8.262s] reading manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'
+[8.268s] writing manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'
+[8.280s] running build_ext
+[8.282s] Creating /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/lib/python3.10/site-packages/entrega-de-kalman.egg-link (link to .)
+[8.285s] Installing r2d2 script to /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/lib/entrega_de_kalman
+[8.288s] 
+[8.289s] Installed /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/build/entrega_de_kalman
+[8.293s] running install_data
+[8.510s] Invoked command in '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/build/entrega_de_kalman' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/build/entrega_de_kalman/prefix_override:/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/install/entrega_de_kalman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robot/ws_aprendendo_ros2/src/entrega_de_kalman/build/entrega_de_kalman/build --no-deps install_data

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/entrega_de_kalman/entrega_de_kalman.egg-info/PKG-INFO
+../build/entrega_de_kalman/entrega_de_kalman.egg-info/SOURCES.txt
+../build/entrega_de_kalman/entrega_de_kalman.egg-info/dependency_links.txt
+../build/entrega_de_kalman/entrega_de_kalman.egg-info/entry_points.txt
+../build/entrega_de_kalman/entrega_de_kalman.egg-info/requires.txt
+../build/entrega_de_kalman/entrega_de_kalman.egg-info/top_level.txt
+../build/entrega_de_kalman/entrega_de_kalman.egg-info/zip-safe
+entrega_de_kalman/__init__.py
+entrega_de_kalman/r2d2.py
+resource/entrega_de_kalman
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,17 @@
+[1.159s] Invoking command in '/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/build --no-deps install_data
+[1.672s] running develop
+[1.913s] running egg_info
+[1.914s] writing entrega_de_kalman.egg-info/PKG-INFO
+[1.914s] writing dependency_links to entrega_de_kalman.egg-info/dependency_links.txt
+[1.915s] writing entry points to entrega_de_kalman.egg-info/entry_points.txt
+[1.915s] writing requirements to entrega_de_kalman.egg-info/requires.txt
+[1.916s] writing top-level names to entrega_de_kalman.egg-info/top_level.txt
+[1.919s] reading manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'
+[1.920s] writing manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'
+[1.923s] running build_ext
+[1.923s] Creating /home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages/entrega-de-kalman.egg-link (link to .)
+[1.924s] Installing r2d2 script to /home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/entrega_de_kalman
+[1.925s] 
+[1.925s] Installed /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman
+[1.926s] running install_data
+[1.960s] Invoked command in '/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/build --no-deps install_data

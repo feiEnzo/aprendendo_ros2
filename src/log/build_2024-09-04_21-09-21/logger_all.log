@@ -1,0 +1,218 @@
+[0.662s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.662s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e23a7b5ae90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e23a7b5a800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e23a7b5a800>>, mixin_verb=('build',))
+[0.715s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.717s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.718s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.719s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robot/ws_aprendendo_ros2/src'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(entrega_de_kalman) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(entrega_de_kalman) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(entrega_de_kalman) by extension 'ignore_ament_install'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(entrega_de_kalman) by extensions ['colcon_pkg']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(entrega_de_kalman) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(entrega_de_kalman) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(entrega_de_kalman) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(entrega_de_kalman) by extensions ['ros']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(entrega_de_kalman) by extension 'ros'
+[0.749s] DEBUG:colcon.colcon_core.package_identification:Package 'entrega_de_kalman' with type 'ros.ament_python' and name 'entrega_de_kalman'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(my_first) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(my_first) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(my_first) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(my_first) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(my_first) by extension 'colcon_pkg'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(my_first) by extensions ['colcon_meta']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(my_first) by extension 'colcon_meta'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(my_first) by extensions ['ros']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(my_first) by extension 'ros'
+[0.754s] DEBUG:colcon.colcon_core.package_identification:Package 'my_first' with type 'ros.ament_python' and name 'my_first'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(pacote_de_exemplos) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(pacote_de_exemplos) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(pacote_de_exemplos) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(pacote_de_exemplos) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(pacote_de_exemplos) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(pacote_de_exemplos) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(pacote_de_exemplos) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(pacote_de_exemplos) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(pacote_de_exemplos) by extension 'ros'
+[0.757s] DEBUG:colcon.colcon_core.package_identification:Package 'pacote_de_exemplos' with type 'ros.ament_python' and name 'pacote_de_exemplos'
+[0.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'entrega_de_kalman' build argument 'cmake_args' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'entrega_de_kalman' build argument 'cmake_target' from command line to 'None'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'entrega_de_kalman' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.799s] Level 5:colcon.colcon_core.verb:set package 'entrega_de_kalman' build argument 'cmake_clean_cache' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'entrega_de_kalman' build argument 'cmake_clean_first' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'entrega_de_kalman' build argument 'cmake_force_configure' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'entrega_de_kalman' build argument 'ament_cmake_args' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'entrega_de_kalman' build argument 'catkin_cmake_args' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'entrega_de_kalman' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.800s] DEBUG:colcon.colcon_core.verb:Building package 'entrega_de_kalman' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman', 'merge_install': False, 'path': '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman', 'symlink_install': False, 'test_result_base': None}
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'my_first' build argument 'cmake_args' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'my_first' build argument 'cmake_target' from command line to 'None'
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'my_first' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first' build argument 'cmake_clean_cache' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first' build argument 'cmake_clean_first' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first' build argument 'cmake_force_configure' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first' build argument 'ament_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'my_first' build argument 'catkin_cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'my_first' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.804s] DEBUG:colcon.colcon_core.verb:Building package 'my_first' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/ws_aprendendo_ros2/src/build/my_first', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/ws_aprendendo_ros2/src/install/my_first', 'merge_install': False, 'path': '/home/robot/ws_aprendendo_ros2/src/my_first', 'symlink_install': False, 'test_result_base': None}
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'pacote_de_exemplos' build argument 'cmake_args' from command line to 'None'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'pacote_de_exemplos' build argument 'cmake_target' from command line to 'None'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'pacote_de_exemplos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'pacote_de_exemplos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'pacote_de_exemplos' build argument 'cmake_clean_first' from command line to 'False'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'pacote_de_exemplos' build argument 'cmake_force_configure' from command line to 'False'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'pacote_de_exemplos' build argument 'ament_cmake_args' from command line to 'None'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'pacote_de_exemplos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'pacote_de_exemplos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.808s] DEBUG:colcon.colcon_core.verb:Building package 'pacote_de_exemplos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos', 'merge_install': False, 'path': '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos', 'symlink_install': False, 'test_result_base': None}
+[0.809s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.815s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman' with build type 'ament_python'
+[0.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('entrega_de_kalman', 'ament_prefix_path')
+[0.821s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/hook/ament_prefix_path.ps1'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/hook/ament_prefix_path.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/hook/ament_prefix_path.sh'
+[0.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.829s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.841s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robot/ws_aprendendo_ros2/src/my_first' with build type 'ament_python'
+[0.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first', 'ament_prefix_path')
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/hook/ament_prefix_path.ps1'
+[0.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/hook/ament_prefix_path.dsv'
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/hook/ament_prefix_path.sh'
+[0.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.422s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman'
+[1.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.882s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robot/ws_aprendendo_ros2/src/my_first'
+[1.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/build
+[3.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/ws_aprendendo_ros2/src/build/my_first': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/my_first/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/my_first/build
+[4.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/build
+[4.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/entrega_de_kalman build --build-base /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/build install --record /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/install.log --single-version-externally-managed
+[4.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/ws_aprendendo_ros2/src/build/my_first' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/my_first/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/my_first/build
+[4.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/ws_aprendendo_ros2/src/my_first': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/my_first/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_first build --build-base /home/robot/ws_aprendendo_ros2/src/build/my_first/build install --record /home/robot/ws_aprendendo_ros2/src/build/my_first/install.log --single-version-externally-managed
+[5.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/entrega_de_kalman build --build-base /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/build install --record /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/install.log --single-version-externally-managed
+[5.779s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman' for CMake module files
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman' for CMake config files
+[5.794s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib'
+[5.807s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/bin'
+[5.808s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/pkgconfig/entrega_de_kalman.pc'
+[5.808s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages'
+[5.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('entrega_de_kalman', 'pythonpath')
+[5.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/hook/pythonpath.ps1'
+[5.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/hook/pythonpath.dsv'
+[5.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/hook/pythonpath.sh'
+[5.847s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/bin'
+[5.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(entrega_de_kalman)
+[5.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/package.ps1'
+[5.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/package.dsv'
+[5.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/package.sh'
+[5.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/package.bash'
+[5.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman/package.zsh'
+[5.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/colcon-core/packages/entrega_de_kalman)
+[5.876s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos' with build type 'ament_python'
+[5.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('pacote_de_exemplos', 'ament_prefix_path')
+[5.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/hook/ament_prefix_path.ps1'
+[5.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/hook/ament_prefix_path.dsv'
+[5.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/hook/ament_prefix_path.sh'
+[5.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.888s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.491s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos'
+[6.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/my_first' for CMake module files
+[6.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/ws_aprendendo_ros2/src/my_first' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/my_first/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_first build --build-base /home/robot/ws_aprendendo_ros2/src/build/my_first/build install --record /home/robot/ws_aprendendo_ros2/src/build/my_first/install.log --single-version-externally-managed
+[6.505s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/my_first' for CMake config files
+[6.506s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/my_first/lib'
+[6.506s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/my_first/bin'
+[6.506s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/pkgconfig/my_first.pc'
+[6.507s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages'
+[6.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first', 'pythonpath')
+[6.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/hook/pythonpath.ps1'
+[6.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/hook/pythonpath.dsv'
+[6.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/hook/pythonpath.sh'
+[6.511s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/my_first/bin'
+[6.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first)
+[6.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/package.ps1'
+[6.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/package.dsv'
+[6.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/package.sh'
+[6.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/package.bash'
+[6.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first/package.zsh'
+[6.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/ws_aprendendo_ros2/src/install/my_first/share/colcon-core/packages/my_first)
+[7.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build
+[8.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build
+[8.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pacote_de_exemplos build --build-base /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build install --record /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log --single-version-externally-managed
+[8.687s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos' for CMake module files
+[8.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pacote_de_exemplos build --build-base /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build install --record /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log --single-version-externally-managed
+[8.689s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos' for CMake config files
+[8.690s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib'
+[8.691s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/bin'
+[8.691s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pkgconfig/pacote_de_exemplos.pc'
+[8.691s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages'
+[8.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('pacote_de_exemplos', 'pythonpath')
+[8.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/hook/pythonpath.ps1'
+[8.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/hook/pythonpath.dsv'
+[8.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/hook/pythonpath.sh'
+[8.697s] Level 1:colcon.colcon_core.environment:checking '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/bin'
+[8.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pacote_de_exemplos)
+[8.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/package.ps1'
+[8.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/package.dsv'
+[8.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/package.sh'
+[8.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/package.bash'
+[8.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/package.zsh'
+[8.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/colcon-core/packages/pacote_de_exemplos)
+[8.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.707s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.707s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.707s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.716s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[8.716s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.716s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.716s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.720s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[8.720s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.723s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/ws_aprendendo_ros2/src/install/local_setup.ps1'
+[8.726s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/ws_aprendendo_ros2/src/install/_local_setup_util_ps1.py'
+[8.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/ws_aprendendo_ros2/src/install/setup.ps1'
+[8.732s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/ws_aprendendo_ros2/src/install/local_setup.sh'
+[8.734s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/ws_aprendendo_ros2/src/install/_local_setup_util_sh.py'
+[8.735s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/ws_aprendendo_ros2/src/install/setup.sh'
+[8.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/ws_aprendendo_ros2/src/install/local_setup.bash'
+[8.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/ws_aprendendo_ros2/src/install/setup.bash'
+[8.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/ws_aprendendo_ros2/src/install/local_setup.zsh'
+[8.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/ws_aprendendo_ros2/src/install/setup.zsh'
