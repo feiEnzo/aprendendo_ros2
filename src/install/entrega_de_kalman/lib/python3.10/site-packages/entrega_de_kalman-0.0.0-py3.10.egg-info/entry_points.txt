@@ -1,0 +1,3 @@
+[console_scripts]
+r2d2 = entrega_de_kalman.rd2d:main
+

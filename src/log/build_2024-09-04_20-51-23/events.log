@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (entrega_de_kalman) JobQueued: {'identifier': 'entrega_de_kalman', 'dependencies': OrderedDict()}
+[0.000234] (my_first) JobQueued: {'identifier': 'my_first', 'dependencies': OrderedDict()}
+[0.000276] (pacote_de_exemplos) JobQueued: {'identifier': 'pacote_de_exemplos', 'dependencies': OrderedDict()}
+[0.000314] (entrega_de_kalman) JobStarted: {'identifier': 'entrega_de_kalman'}
+[0.017511] (my_first) JobStarted: {'identifier': 'my_first'}
+[0.099306] (-) TimerEvent: {}
+[0.199859] (-) TimerEvent: {}
+[0.300741] (-) TimerEvent: {}
+[0.401315] (-) TimerEvent: {}
+[0.501904] (-) TimerEvent: {}
+[0.602541] (-) TimerEvent: {}
+[0.703072] (-) TimerEvent: {}
+[0.803627] (-) TimerEvent: {}
+[0.904496] (-) TimerEvent: {}
+[1.004868] (-) TimerEvent: {}
+[1.070510] (entrega_de_kalman) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/build', '--no-deps', 'install_data'], 'cwd': '/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman', 'env': {'TMUX': '/tmp/tmux-0/default,89,0', 'HOSTNAME': '1dfbe72f3a35', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'WINDOWID': '8388620', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XTERM_SHELL': '/usr/bin/tmux', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':9', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos:/home/robot/ws_aprendendo_ros2/install/my_first:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': ':http://ros-master:11311', 'PWD': '/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman', 'LC_ALL': 'C.UTF-8', 'XTERM_LOCALE': 'C.UTF-8', 'XTERM_VERSION': 'XTerm(372)', 'PYTHONPATH': '/home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages:/home/robot/ws_aprendendo_ros2/build/pacote_de_exemplos:/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos/lib/python3.10/site-packages:/home/robot/ws_aprendendo_ros2/build/my_first:/home/robot/ws_aprendendo_ros2/install/my_first/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%0'}, 'shell': False}
+[1.108738] (-) TimerEvent: {}
+[1.110028] (my_first) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/robot/ws_aprendendo_ros2/src/build/my_first/build', '--no-deps', 'install_data'], 'cwd': '/home/robot/ws_aprendendo_ros2/src/build/my_first', 'env': {'TMUX': '/tmp/tmux-0/default,89,0', 'HOSTNAME': '1dfbe72f3a35', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'WINDOWID': '8388620', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XTERM_SHELL': '/usr/bin/tmux', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':9', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos:/home/robot/ws_aprendendo_ros2/install/my_first:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': ':http://ros-master:11311', 'PWD': '/home/robot/ws_aprendendo_ros2/src/build/my_first', 'LC_ALL': 'C.UTF-8', 'XTERM_LOCALE': 'C.UTF-8', 'XTERM_VERSION': 'XTerm(372)', 'PYTHONPATH': '/home/robot/ws_aprendendo_ros2/src/build/my_first/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages:/home/robot/ws_aprendendo_ros2/build/pacote_de_exemplos:/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos/lib/python3.10/site-packages:/home/robot/ws_aprendendo_ros2/build/my_first:/home/robot/ws_aprendendo_ros2/install/my_first/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%0'}, 'shell': False}
+[1.208852] (-) TimerEvent: {}
+[1.309249] (-) TimerEvent: {}
+[1.409646] (-) TimerEvent: {}
+[1.497076] (entrega_de_kalman) StdoutLine: {'line': b'running develop\n'}
+[1.509744] (-) TimerEvent: {}
+[1.532275] (my_first) StdoutLine: {'line': b'running develop\n'}
+[1.609863] (-) TimerEvent: {}
+[1.710714] (-) TimerEvent: {}
+[1.742260] (entrega_de_kalman) StdoutLine: {'line': b'running egg_info\n'}
+[1.743256] (entrega_de_kalman) StdoutLine: {'line': b'creating entrega_de_kalman.egg-info\n'}
+[1.744749] (entrega_de_kalman) StdoutLine: {'line': b'writing entrega_de_kalman.egg-info/PKG-INFO\n'}
+[1.746476] (entrega_de_kalman) StdoutLine: {'line': b'writing dependency_links to entrega_de_kalman.egg-info/dependency_links.txt\n'}
+[1.747812] (entrega_de_kalman) StdoutLine: {'line': b'writing entry points to entrega_de_kalman.egg-info/entry_points.txt\n'}
+[1.749082] (entrega_de_kalman) StdoutLine: {'line': b'writing requirements to entrega_de_kalman.egg-info/requires.txt\n'}
+[1.750291] (entrega_de_kalman) StdoutLine: {'line': b'writing top-level names to entrega_de_kalman.egg-info/top_level.txt\n'}
+[1.751676] (entrega_de_kalman) StdoutLine: {'line': b"writing manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'\n"}
+[1.754978] (entrega_de_kalman) StdoutLine: {'line': b"reading manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'\n"}
+[1.756609] (entrega_de_kalman) StdoutLine: {'line': b"writing manifest file 'entrega_de_kalman.egg-info/SOURCES.txt'\n"}
+[1.760429] (entrega_de_kalman) StdoutLine: {'line': b'running build_ext\n'}
+[1.761555] (entrega_de_kalman) StdoutLine: {'line': b'Creating /home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/python3.10/site-packages/entrega-de-kalman.egg-link (link to .)\n'}
+[1.763418] (entrega_de_kalman) StdoutLine: {'line': b'Installing r2d2 script to /home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/lib/entrega_de_kalman\n'}
+[1.765121] (entrega_de_kalman) StdoutLine: {'line': b'\n'}
+[1.765940] (entrega_de_kalman) StdoutLine: {'line': b'Installed /home/robot/ws_aprendendo_ros2/src/build/entrega_de_kalman\n'}
+[1.766774] (my_first) StdoutLine: {'line': b'running egg_info\n'}
+[1.768767] (my_first) StdoutLine: {'line': b'writing my_first.egg-info/PKG-INFO\n'}
+[1.769452] (my_first) StdoutLine: {'line': b'writing dependency_links to my_first.egg-info/dependency_links.txt\n'}
+[1.770102] (my_first) StdoutLine: {'line': b'writing entry points to my_first.egg-info/entry_points.txt\n'}
+[1.770777] (my_first) StdoutLine: {'line': b'writing requirements to my_first.egg-info/requires.txt\n'}
+[1.771545] (my_first) StdoutLine: {'line': b'writing top-level names to my_first.egg-info/top_level.txt\n'}
+[1.772396] (my_first) StdoutLine: {'line': b"reading manifest file 'my_first.egg-info/SOURCES.txt'\n"}
+[1.773054] (entrega_de_kalman) StdoutLine: {'line': b'running install_data\n'}
+[1.773650] (entrega_de_kalman) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/ament_index\n'}
+[1.774224] (entrega_de_kalman) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/ament_index/resource_index\n'}
+[1.774851] (entrega_de_kalman) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/ament_index/resource_index/packages\n'}
+[1.775465] (entrega_de_kalman) StdoutLine: {'line': b'copying resource/entrega_de_kalman -> /home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/ament_index/resource_index/packages\n'}
+[1.776065] (entrega_de_kalman) StdoutLine: {'line': b'copying package.xml -> /home/robot/ws_aprendendo_ros2/src/install/entrega_de_kalman/share/entrega_de_kalman\n'}
+[1.780449] (my_first) StdoutLine: {'line': b"writing manifest file 'my_first.egg-info/SOURCES.txt'\n"}
+[1.782241] (my_first) StdoutLine: {'line': b'running build_ext\n'}
+[1.783195] (my_first) StdoutLine: {'line': b'Creating /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages/my-first.egg-link (link to .)\n'}
+[1.784221] (my_first) StdoutLine: {'line': b'Installing node_one script to /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/my_first\n'}
+[1.784867] (my_first) StdoutLine: {'line': b'\n'}
+[1.785408] (my_first) StdoutLine: {'line': b'Installed /home/robot/ws_aprendendo_ros2/src/build/my_first\n'}
+[1.786568] (my_first) StdoutLine: {'line': b'running install_data\n'}
+[1.810832] (-) TimerEvent: {}
+[1.821130] (entrega_de_kalman) CommandEnded: {'returncode': 0}
+[1.837562] (entrega_de_kalman) JobEnded: {'identifier': 'entrega_de_kalman', 'rc': 0}
+[1.839836] (pacote_de_exemplos) JobStarted: {'identifier': 'pacote_de_exemplos'}
+[1.851362] (my_first) CommandEnded: {'returncode': 0}
+[1.864641] (my_first) JobEnded: {'identifier': 'my_first', 'rc': 0}
+[1.914412] (-) TimerEvent: {}
+[2.015036] (-) TimerEvent: {}
+[2.115761] (-) TimerEvent: {}
+[2.217132] (-) TimerEvent: {}
+[2.326201] (-) TimerEvent: {}
+[2.429992] (-) TimerEvent: {}
+[2.530480] (-) TimerEvent: {}
+[2.631055] (-) TimerEvent: {}
+[2.731537] (-) TimerEvent: {}
+[2.832092] (-) TimerEvent: {}
+[2.856799] (pacote_de_exemplos) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build', '--no-deps', 'install_data'], 'cwd': '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos', 'env': {'TMUX': '/tmp/tmux-0/default,89,0', 'HOSTNAME': '1dfbe72f3a35', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/robot/ws_aprendendo_ros2/src/entrega_de_kalman', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'WINDOWID': '8388620', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XTERM_SHELL': '/usr/bin/tmux', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':9', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos:/home/robot/ws_aprendendo_ros2/install/my_first:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': ':http://ros-master:11311', 'PWD': '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos', 'LC_ALL': 'C.UTF-8', 'XTERM_LOCALE': 'C.UTF-8', 'XTERM_VERSION': 'XTerm(372)', 'PYTHONPATH': '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:/home/robot/ws_aprendendo_ros2/build/pacote_de_exemplos:/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos/lib/python3.10/site-packages:/home/robot/ws_aprendendo_ros2/build/my_first:/home/robot/ws_aprendendo_ros2/install/my_first/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%0'}, 'shell': False}
+[2.934411] (-) TimerEvent: {}
+[3.035236] (-) TimerEvent: {}
+[3.138411] (-) TimerEvent: {}
+[3.239833] (-) TimerEvent: {}
+[3.257583] (pacote_de_exemplos) StdoutLine: {'line': b'running develop\n'}
+[3.339950] (-) TimerEvent: {}
+[3.440784] (-) TimerEvent: {}
+[3.501888] (pacote_de_exemplos) StdoutLine: {'line': b'running egg_info\n'}
+[3.502140] (pacote_de_exemplos) StdoutLine: {'line': b'writing pacote_de_exemplos.egg-info/PKG-INFO\n'}
+[3.502255] (pacote_de_exemplos) StdoutLine: {'line': b'writing dependency_links to pacote_de_exemplos.egg-info/dependency_links.txt\n'}
+[3.502390] (pacote_de_exemplos) StdoutLine: {'line': b'writing entry points to pacote_de_exemplos.egg-info/entry_points.txt\n'}
+[3.502515] (pacote_de_exemplos) StdoutLine: {'line': b'writing requirements to pacote_de_exemplos.egg-info/requires.txt\n'}
+[3.502616] (pacote_de_exemplos) StdoutLine: {'line': b'writing top-level names to pacote_de_exemplos.egg-info/top_level.txt\n'}
+[3.502716] (pacote_de_exemplos) StdoutLine: {'line': b"reading manifest file 'pacote_de_exemplos.egg-info/SOURCES.txt'\n"}
+[3.506678] (pacote_de_exemplos) StdoutLine: {'line': b"writing manifest file 'pacote_de_exemplos.egg-info/SOURCES.txt'\n"}
+[3.512888] (pacote_de_exemplos) StdoutLine: {'line': b'running build_ext\n'}
+[3.513161] (pacote_de_exemplos) StdoutLine: {'line': b'Creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote-de-exemplos.egg-link (link to .)\n'}
+[3.513436] (pacote_de_exemplos) StdoutLine: {'line': b'Installing checkpoints script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos\n'}
+[3.513707] (pacote_de_exemplos) StdoutLine: {'line': b'Installing no_com_classe script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos\n'}
+[3.514023] (pacote_de_exemplos) StdoutLine: {'line': b'Installing no_simples script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos\n'}
+[3.514365] (pacote_de_exemplos) StdoutLine: {'line': b'Installing r2d2 script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos\n'}
+[3.519756] (pacote_de_exemplos) StdoutLine: {'line': b'\n'}
+[3.520005] (pacote_de_exemplos) StdoutLine: {'line': b'Installed /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos\n'}
+[3.520196] (pacote_de_exemplos) StdoutLine: {'line': b'running install_data\n'}
+[3.540908] (-) TimerEvent: {}
+[3.571035] (pacote_de_exemplos) CommandEnded: {'returncode': 0}
+[3.581730] (pacote_de_exemplos) JobEnded: {'identifier': 'pacote_de_exemplos', 'rc': 0}
+[3.583638] (-) EventReactorShutdown: {}

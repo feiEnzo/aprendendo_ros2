@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.001075] (my_first) JobQueued: {'identifier': 'my_first', 'dependencies': OrderedDict()}
+[0.001132] (pacote_de_exemplos) JobQueued: {'identifier': 'pacote_de_exemplos', 'dependencies': OrderedDict()}
+[0.001185] (my_first) JobStarted: {'identifier': 'my_first'}
+[0.021894] (pacote_de_exemplos) JobStarted: {'identifier': 'pacote_de_exemplos'}
+[0.099545] (-) TimerEvent: {}
+[0.200129] (-) TimerEvent: {}
+[0.300754] (-) TimerEvent: {}
+[0.401442] (-) TimerEvent: {}
+[0.502410] (-) TimerEvent: {}
+[0.603299] (-) TimerEvent: {}
+[0.704385] (-) TimerEvent: {}
+[0.805471] (-) TimerEvent: {}
+[0.906536] (-) TimerEvent: {}
+[1.007564] (-) TimerEvent: {}
+[1.083725] (my_first) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/my_first', 'build', '--build-base', '/home/robot/ws_aprendendo_ros2/src/build/my_first/build', 'install', '--record', '/home/robot/ws_aprendendo_ros2/src/build/my_first/install.log', '--single-version-externally-managed'], 'cwd': '/home/robot/ws_aprendendo_ros2/src/my_first', 'env': {'TMUX': '/tmp/tmux-0/default,77,0', 'HOSTNAME': '1dfbe72f3a35', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/robot/ws_aprendendo_ros2', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'WINDOWID': '4194316', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XTERM_SHELL': '/usr/bin/tmux', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':9', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': ':http://ros-master:11311', 'PWD': '/home/robot/ws_aprendendo_ros2/src/build/my_first', 'LC_ALL': 'C.UTF-8', 'XTERM_LOCALE': 'C.UTF-8', 'XTERM_VERSION': 'XTerm(372)', 'PYTHONPATH': '/home/robot/ws_aprendendo_ros2/src/build/my_first/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages:/home/robot/ws_aprendendo_ros2/build/pacote_de_exemplos:/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%0'}, 'shell': False}
+[1.107651] (-) TimerEvent: {}
+[1.145930] (pacote_de_exemplos) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/pacote_de_exemplos', 'build', '--build-base', '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build', 'install', '--record', '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log', '--single-version-externally-managed'], 'cwd': '/home/robot/ws_aprendendo_ros2/src/pacote_de_exemplos', 'env': {'TMUX': '/tmp/tmux-0/default,77,0', 'HOSTNAME': '1dfbe72f3a35', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/robot/ws_aprendendo_ros2', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'WINDOWID': '4194316', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XTERM_SHELL': '/usr/bin/tmux', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':9', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': ':http://ros-master:11311', 'PWD': '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos', 'LC_ALL': 'C.UTF-8', 'XTERM_LOCALE': 'C.UTF-8', 'XTERM_VERSION': 'XTerm(372)', 'PYTHONPATH': '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:/home/robot/ws_aprendendo_ros2/build/pacote_de_exemplos:/home/robot/ws_aprendendo_ros2/install/pacote_de_exemplos/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%0'}, 'shell': False}
+[1.207753] (-) TimerEvent: {}
+[1.308469] (-) TimerEvent: {}
+[1.413999] (-) TimerEvent: {}
+[1.514356] (-) TimerEvent: {}
+[1.535667] (my_first) StdoutLine: {'line': b'running egg_info\n'}
+[1.537646] (my_first) StdoutLine: {'line': b'creating ../build/my_first/my_first.egg-info\n'}
+[1.539787] (my_first) StdoutLine: {'line': b'writing ../build/my_first/my_first.egg-info/PKG-INFO\n'}
+[1.542314] (my_first) StdoutLine: {'line': b'writing dependency_links to ../build/my_first/my_first.egg-info/dependency_links.txt\n'}
+[1.544336] (my_first) StdoutLine: {'line': b'writing entry points to ../build/my_first/my_first.egg-info/entry_points.txt\n'}
+[1.546357] (my_first) StdoutLine: {'line': b'writing requirements to ../build/my_first/my_first.egg-info/requires.txt\n'}
+[1.548306] (my_first) StdoutLine: {'line': b'writing top-level names to ../build/my_first/my_first.egg-info/top_level.txt\n'}
+[1.550522] (my_first) StdoutLine: {'line': b"writing manifest file '../build/my_first/my_first.egg-info/SOURCES.txt'\n"}
+[1.554222] (my_first) StdoutLine: {'line': b"reading manifest file '../build/my_first/my_first.egg-info/SOURCES.txt'\n"}
+[1.556493] (my_first) StdoutLine: {'line': b"writing manifest file '../build/my_first/my_first.egg-info/SOURCES.txt'\n"}
+[1.558585] (my_first) StdoutLine: {'line': b'running build\n'}
+[1.559922] (my_first) StdoutLine: {'line': b'running build_py\n'}
+[1.561434] (my_first) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/build/my_first/build\n'}
+[1.563056] (my_first) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/build/my_first/build/lib\n'}
+[1.564595] (my_first) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/build/my_first/build/lib/my_first\n'}
+[1.566181] (my_first) StdoutLine: {'line': b'copying my_first/__init__.py -> /home/robot/ws_aprendendo_ros2/src/build/my_first/build/lib/my_first\n'}
+[1.568031] (my_first) StdoutLine: {'line': b'copying my_first/first_node.py -> /home/robot/ws_aprendendo_ros2/src/build/my_first/build/lib/my_first\n'}
+[1.570392] (my_first) StdoutLine: {'line': b'running install\n'}
+[1.571422] (my_first) StdoutLine: {'line': b'running install_lib\n'}
+[1.573487] (my_first) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages/my_first\n'}
+[1.575391] (my_first) StdoutLine: {'line': b'copying /home/robot/ws_aprendendo_ros2/src/build/my_first/build/lib/my_first/__init__.py -> /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages/my_first\n'}
+[1.576870] (my_first) StdoutLine: {'line': b'copying /home/robot/ws_aprendendo_ros2/src/build/my_first/build/lib/my_first/first_node.py -> /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages/my_first\n'}
+[1.578907] (my_first) StdoutLine: {'line': b'byte-compiling /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages/my_first/__init__.py to __init__.cpython-310.pyc\n'}
+[1.580629] (my_first) StdoutLine: {'line': b'byte-compiling /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages/my_first/first_node.py to first_node.cpython-310.pyc\n'}
+[1.582197] (my_first) StdoutLine: {'line': b'running install_data\n'}
+[1.583882] (my_first) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/my_first/share/ament_index\n'}
+[1.585372] (my_first) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/my_first/share/ament_index/resource_index\n'}
+[1.586746] (my_first) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/my_first/share/ament_index/resource_index/packages\n'}
+[1.588171] (my_first) StdoutLine: {'line': b'copying resource/my_first -> /home/robot/ws_aprendendo_ros2/src/install/my_first/share/ament_index/resource_index/packages\n'}
+[1.589699] (my_first) StdoutLine: {'line': b'copying package.xml -> /home/robot/ws_aprendendo_ros2/src/install/my_first/share/my_first\n'}
+[1.590917] (my_first) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.594139] (my_first) StdoutLine: {'line': b'Copying ../build/my_first/my_first.egg-info to /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages/my_first-0.0.0-py3.10.egg-info\n'}
+[1.597279] (my_first) StdoutLine: {'line': b'running install_scripts\n'}
+[1.607049] (pacote_de_exemplos) StdoutLine: {'line': b'running egg_info\n'}
+[1.608517] (pacote_de_exemplos) StdoutLine: {'line': b'creating ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info\n'}
+[1.613214] (pacote_de_exemplos) StdoutLine: {'line': b'writing ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/PKG-INFO\n'}
+[1.613991] (pacote_de_exemplos) StdoutLine: {'line': b'writing dependency_links to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/dependency_links.txt\n'}
+[1.614668] (-) TimerEvent: {}
+[1.614912] (pacote_de_exemplos) StdoutLine: {'line': b'writing entry points to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/entry_points.txt\n'}
+[1.615602] (pacote_de_exemplos) StdoutLine: {'line': b'writing requirements to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/requires.txt\n'}
+[1.616014] (pacote_de_exemplos) StdoutLine: {'line': b'writing top-level names to ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/top_level.txt\n'}
+[1.616486] (pacote_de_exemplos) StdoutLine: {'line': b"writing manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'\n"}
+[1.619411] (pacote_de_exemplos) StdoutLine: {'line': b"reading manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'\n"}
+[1.621869] (pacote_de_exemplos) StdoutLine: {'line': b"writing manifest file '../build/pacote_de_exemplos/pacote_de_exemplos.egg-info/SOURCES.txt'\n"}
+[1.624020] (pacote_de_exemplos) StdoutLine: {'line': b'running build\n'}
+[1.624848] (pacote_de_exemplos) StdoutLine: {'line': b'running build_py\n'}
+[1.625501] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build\n'}
+[1.626627] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib\n'}
+[1.626809] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos\n'}
+[1.626977] (pacote_de_exemplos) StdoutLine: {'line': b'copying pacote_de_exemplos/no_com_classe.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos\n'}
+[1.628508] (pacote_de_exemplos) StdoutLine: {'line': b'copying pacote_de_exemplos/__init__.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos\n'}
+[1.628930] (pacote_de_exemplos) StdoutLine: {'line': b'copying pacote_de_exemplos/no_simples.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos\n'}
+[1.630506] (pacote_de_exemplos) StdoutLine: {'line': b'copying pacote_de_exemplos/robot.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos\n'}
+[1.630947] (pacote_de_exemplos) StdoutLine: {'line': b'copying pacote_de_exemplos/r2d2.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos\n'}
+[1.631478] (pacote_de_exemplos) StdoutLine: {'line': b'copying pacote_de_exemplos/checkpoints.py -> /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos\n'}
+[1.634035] (pacote_de_exemplos) StdoutLine: {'line': b'running install\n'}
+[1.634656] (pacote_de_exemplos) StdoutLine: {'line': b'running install_lib\n'}
+[1.637621] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos\n'}
+[1.637834] (pacote_de_exemplos) StdoutLine: {'line': b'copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/no_com_classe.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos\n'}
+[1.638002] (pacote_de_exemplos) StdoutLine: {'line': b'copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/__init__.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos\n'}
+[1.638156] (pacote_de_exemplos) StdoutLine: {'line': b'copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/no_simples.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos\n'}
+[1.638302] (pacote_de_exemplos) StdoutLine: {'line': b'copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/robot.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos\n'}
+[1.638469] (pacote_de_exemplos) StdoutLine: {'line': b'copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/r2d2.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos\n'}
+[1.640900] (pacote_de_exemplos) StdoutLine: {'line': b'copying /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build/lib/pacote_de_exemplos/checkpoints.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos\n'}
+[1.641885] (pacote_de_exemplos) StdoutLine: {'line': b'byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/no_com_classe.py to no_com_classe.cpython-310.pyc\n'}
+[1.646744] (pacote_de_exemplos) StdoutLine: {'line': b'byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/__init__.py to __init__.cpython-310.pyc\n'}
+[1.647189] (pacote_de_exemplos) StdoutLine: {'line': b'byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/no_simples.py to no_simples.cpython-310.pyc\n'}
+[1.647348] (pacote_de_exemplos) StdoutLine: {'line': b'byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/robot.py to robot.cpython-310.pyc\n'}
+[1.647500] (pacote_de_exemplos) StdoutLine: {'line': b'byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/r2d2.py to r2d2.cpython-310.pyc\n'}
+[1.651705] (pacote_de_exemplos) StdoutLine: {'line': b'byte-compiling /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos/checkpoints.py to checkpoints.cpython-310.pyc\n'}
+[1.651904] (pacote_de_exemplos) StdoutLine: {'line': b'running install_data\n'}
+[1.654118] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/ament_index\n'}
+[1.654315] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/ament_index/resource_index\n'}
+[1.654473] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/ament_index/resource_index/packages\n'}
+[1.654622] (pacote_de_exemplos) StdoutLine: {'line': b'copying resource/pacote_de_exemplos -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/ament_index/resource_index/packages\n'}
+[1.654773] (pacote_de_exemplos) StdoutLine: {'line': b'copying package.xml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos\n'}
+[1.654925] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config\n'}
+[1.655071] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/Default.perspective -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/\n'}
+[1.657957] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map\n'}
+[1.658310] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/map/map.yaml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map\n'}
+[1.658745] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/map/map.pgm -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map\n'}
+[1.663056] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/map/checkpoints.json -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/map\n'}
+[1.663274] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz\n'}
+[1.665796] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/rviz/navigation.rviz -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz\n'}
+[1.666128] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/rviz/robot.rviz -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz\n'}
+[1.666303] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/rviz/mapping_cartographer.rviz -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz\n'}
+[1.666470] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/rviz/mapping_slam_toolbox.rviz -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/rviz\n'}
+[1.666630] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav\n'}
+[1.666783] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/nav/slam_toolbox.yaml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav\n'}
+[1.666931] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/nav/nav2_params.yaml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav\n'}
+[1.669375] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/nav/ekf.yaml -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav\n'}
+[1.669809] (pacote_de_exemplos) StdoutLine: {'line': b'copying config/nav/cartographer.lua -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/config/nav\n'}
+[1.670282] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch\n'}
+[1.670632] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/simulation.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.671061] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/mapping_cartographer.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.671696] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/navigation2.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.671871] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/mapping_slam_toolbox.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.673881] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/load.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.674078] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.677627] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/navigation.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.677889] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/turtlebot.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.678072] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/exemplo.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.678239] (my_first) StdoutLine: {'line': b'Installing node_one script to /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/my_first\n'}
+[1.684730] (my_first) StdoutLine: {'line': b"writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/my_first/install.log'\n"}
+[1.685150] (pacote_de_exemplos) StdoutLine: {'line': b'copying launch/load_turtlebot.launch.py -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/launch/\n'}
+[1.685812] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation\n'}
+[1.686009] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds\n'}
+[1.686162] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/worlds/simple_room.world -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds\n'}
+[1.686682] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/worlds/simple_room_with_random_boxes.world -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds\n'}
+[1.686958] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/worlds/simple_room_with_fixed_boxes.world -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds\n'}
+[1.687497] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/worlds/empty.world -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds\n'}
+[1.687801] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models\n'}
+[1.688081] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/r2d2\n'}
+[1.688365] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/models/r2d2/model.sdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/r2d2\n'}
+[1.688914] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/models/r2d2/model.config -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/r2d2\n'}
+[1.689194] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/wood_square\n'}
+[1.693856] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/models/wood_square/model.sdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/wood_square\n'}
+[1.705870] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/models/wood_square/model.config -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/wood_square\n'}
+[1.706076] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/box\n'}
+[1.706233] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/models/box/model.sdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/box\n'}
+[1.706381] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/models/box/model.config -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/box\n'}
+[1.706533] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/simple_room\n'}
+[1.706682] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/models/simple_room/model.sdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/simple_room\n'}
+[1.706838] (pacote_de_exemplos) StdoutLine: {'line': b'copying simulation/models/simple_room/model.config -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/models/simple_room\n'}
+[1.706995] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf\n'}
+[1.707140] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/robot.urdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/\n'}
+[1.707289] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/sam_bot_description.urdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/\n'}
+[1.707437] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/myfirstrobot.urdf -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/\n'}
+[1.707584] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/myfirstrobot.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/\n'}
+[1.707731] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation\n'}
+[1.707876] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/simulation/gazebo_base.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation\n'}
+[1.708024] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/simulation/imu.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation\n'}
+[1.708171] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/simulation/gazebo_laser.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation\n'}
+[1.708338] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/simulation/gazebo_camera.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/simulation\n'}
+[1.708486] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros\n'}
+[1.708629] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/macros/properties.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros\n'}
+[1.708775] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/macros/link_geometry.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros\n'}
+[1.708919] (pacote_de_exemplos) StdoutLine: {'line': b'creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts\n'}
+[1.709066] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/macros/parts/wheel.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts\n'}
+[1.709210] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/macros/parts/base.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts\n'}
+[1.709422] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/macros/parts/head.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts\n'}
+[1.709870] (pacote_de_exemplos) StdoutLine: {'line': b'copying urdf/macros/parts/leg.urdf.xacro -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/urdf/macros/parts\n'}
+[1.712528] (pacote_de_exemplos) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.712712] (pacote_de_exemplos) StdoutLine: {'line': b'Copying ../build/pacote_de_exemplos/pacote_de_exemplos.egg-info to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote_de_exemplos-0.0.0-py3.10.egg-info\n'}
+[1.714595] (pacote_de_exemplos) StdoutLine: {'line': b'running install_scripts\n'}
+[1.714777] (-) TimerEvent: {}
+[1.751079] (my_first) CommandEnded: {'returncode': 0}
+[1.754454] (pacote_de_exemplos) StdoutLine: {'line': b'Installing checkpoints script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos\n'}
+[1.754648] (pacote_de_exemplos) StdoutLine: {'line': b'Installing no_com_classe script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos\n'}
+[1.759047] (pacote_de_exemplos) StdoutLine: {'line': b'Installing no_simples script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos\n'}
+[1.760130] (pacote_de_exemplos) StdoutLine: {'line': b'Installing r2d2 script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos\n'}
+[1.761197] (pacote_de_exemplos) StdoutLine: {'line': b"writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/install.log'\n"}
+[1.780737] (my_first) JobEnded: {'identifier': 'my_first', 'rc': 0}
+[1.790951] (pacote_de_exemplos) CommandEnded: {'returncode': 0}
+[1.801975] (pacote_de_exemplos) JobEnded: {'identifier': 'pacote_de_exemplos', 'rc': 0}
+[1.803795] (-) EventReactorShutdown: {}

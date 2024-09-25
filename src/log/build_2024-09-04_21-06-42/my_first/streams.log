@@ -1,0 +1,17 @@
+[2.159s] Invoking command in '/home/robot/ws_aprendendo_ros2/src/build/my_first': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/my_first/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/my_first/build --no-deps install_data
+[3.146s] running develop
+[3.587s] running egg_info
+[3.588s] writing my_first.egg-info/PKG-INFO
+[3.589s] writing dependency_links to my_first.egg-info/dependency_links.txt
+[3.590s] writing entry points to my_first.egg-info/entry_points.txt
+[3.591s] writing requirements to my_first.egg-info/requires.txt
+[3.592s] writing top-level names to my_first.egg-info/top_level.txt
+[3.593s] reading manifest file 'my_first.egg-info/SOURCES.txt'
+[3.594s] writing manifest file 'my_first.egg-info/SOURCES.txt'
+[3.596s] running build_ext
+[3.597s] Creating /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages/my-first.egg-link (link to .)
+[3.598s] Installing node_one script to /home/robot/ws_aprendendo_ros2/src/install/my_first/lib/my_first
+[3.598s] 
+[3.599s] Installed /home/robot/ws_aprendendo_ros2/src/build/my_first
+[3.599s] running install_data
+[3.674s] Invoked command in '/home/robot/ws_aprendendo_ros2/src/build/my_first' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/my_first/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_first/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/my_first/build --no-deps install_data

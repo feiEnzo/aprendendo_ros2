@@ -1,0 +1,21 @@
+[0.686s] Invoking command in '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build --no-deps install_data
+[0.975s] running develop
+[1.131s] running egg_info
+[1.132s] writing pacote_de_exemplos.egg-info/PKG-INFO
+[1.133s] writing dependency_links to pacote_de_exemplos.egg-info/dependency_links.txt
+[1.133s] writing entry points to pacote_de_exemplos.egg-info/entry_points.txt
+[1.133s] writing requirements to pacote_de_exemplos.egg-info/requires.txt
+[1.133s] writing top-level names to pacote_de_exemplos.egg-info/top_level.txt
+[1.136s] reading manifest file 'pacote_de_exemplos.egg-info/SOURCES.txt'
+[1.138s] writing manifest file 'pacote_de_exemplos.egg-info/SOURCES.txt'
+[1.140s] running build_ext
+[1.140s] Creating /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages/pacote-de-exemplos.egg-link (link to .)
+[1.141s] Installing checkpoints script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[1.145s] Installing no_com_classe script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[1.145s] Installing no_simples script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[1.145s] Installing r2d2 script to /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/pacote_de_exemplos
+[1.147s] 
+[1.147s] Installed /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos
+[1.147s] running install_data
+[1.147s] copying simulation/worlds/simple_room_with_gaps.world -> /home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/share/pacote_de_exemplos/simulation/worlds
+[1.173s] Invoked command in '/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/pacote_de_exemplos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robot/ws_aprendendo_ros2/src/build/pacote_de_exemplos/build --no-deps install_data

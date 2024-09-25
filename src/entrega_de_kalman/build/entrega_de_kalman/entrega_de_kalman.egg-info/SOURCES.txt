@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+entrega_de_kalman/__init__.py
+entrega_de_kalman/r2d2.py
+entrega_de_kalman.egg-info/PKG-INFO
+entrega_de_kalman.egg-info/SOURCES.txt
+entrega_de_kalman.egg-info/dependency_links.txt
+entrega_de_kalman.egg-info/entry_points.txt
+entrega_de_kalman.egg-info/requires.txt
+entrega_de_kalman.egg-info/top_level.txt
+entrega_de_kalman.egg-info/zip-safe
+resource/entrega_de_kalman
