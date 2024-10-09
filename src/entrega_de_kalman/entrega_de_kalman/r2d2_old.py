@@ -94,7 +94,7 @@ class R2D2(Node):
 
             _, _, self.left_yaw = tf_transformations.euler_from_quaternion(
                 [self.tf_left.transform.rotation.x, self.tf_left.transform.rotation.y, 
-                self.tf_left.transform.rotation.z, self.tf_left.transform.rotation.w]) 
+                self.tf_left.transform.rotation.z, self.tf_left.transform.rotation.w])
             if(self.left_yaw<0): 
                 self.left_yaw = -1*self.left_yaw + ultimas_medidas[0]
             medidas[0] = self.left_yaw
